@@ -14,16 +14,23 @@ async function Userdata() {
 
     peopleData.forEach((data) => {
         display.innerHTML += `
-        <div class="card m-4 shadow">
+        <div class="card m-4 shadow mx-auto">
         <div class="card-body">
             <h3 class="card-title">${data.first_name} ${data.last_name}</h3>
             <p class="card-text">${data.email}</p>
             </div>
         </div>
+        <style>
+        .card{
+            width: 30rem;
+            
+        }
+        </style>
         `;
     })
 }
 Userdata();
 </script>
 
-<style scoped></style>
+<style scoped>
+</style>
