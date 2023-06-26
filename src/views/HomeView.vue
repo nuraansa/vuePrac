@@ -1,13 +1,11 @@
 <template>
   <div>
-    <h1>home</h1>
+    <h1 class="p-4">Students</h1>
   </div>
 </template>
 
 <script>
-  export default {
-    
-  }
+  
 </script>
 
 <style scoped>
